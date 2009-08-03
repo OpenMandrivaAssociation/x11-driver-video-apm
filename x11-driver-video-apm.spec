@@ -1,6 +1,6 @@
 Name: x11-driver-video-apm
-Version: 1.2.1
-Release: %mkrel 2
+Version: 1.2.2
+Release: %mkrel 1
 Summary: X.org driver for Alliance Promotion
 Group: System/X11
 URL: http://xorg.freedesktop.org
@@ -19,7 +19,7 @@ x11-driver-video-apm is the X.org driver for Alliance Promotion.
 %setup -q -n xf86-video-apm-%{version}
 
 %build
-%configure
+%configure2_5x
 %make
 
 %install
