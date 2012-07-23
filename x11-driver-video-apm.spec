@@ -1,5 +1,5 @@
 Name: x11-driver-video-apm
-Version: 1.2.4
+Version: 1.2.5
 Release: 1
 Summary: X.org driver for Alliance Promotion
 Group: System/X11
