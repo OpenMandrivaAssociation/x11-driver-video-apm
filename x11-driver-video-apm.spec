@@ -3,7 +3,7 @@
 Summary:	X.org driver for Alliance Promotion
 Name:		x11-driver-video-apm
 Version:	1.2.5
-Release:	7
+Release:	8
 Group:		System/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org
