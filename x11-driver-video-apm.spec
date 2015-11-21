@@ -1,13 +1,9 @@
 %define _disable_ld_no_undefined 1
 
-%ifarch 
- i586 export CC=gcc
-%endif
-
 Summary:	X.org driver for Alliance Promotion
 Name:		x11-driver-video-apm
 Version:	1.2.5
-Release:	14
+Release:	15
 Group:		System/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org
@@ -27,7 +23,10 @@ x11-driver-video-apm is the X.org driver for Alliance Promotion.
 %apply_patches
 
 %build
-%configure2_5x
+%ifarch i586
+export CC=gcc
+%endif
+%configure
 %make
 
 %install
