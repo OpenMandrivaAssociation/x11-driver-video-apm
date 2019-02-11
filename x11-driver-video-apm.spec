@@ -2,13 +2,12 @@
 
 Summary:	X.org driver for Alliance Promotion
 Name:		x11-driver-video-apm
-Version:	1.2.5
-Release:	17
+Version:	1.3.0
+Release:	1
 Group:		System/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-apm-%{version}.tar.bz2
-Patch0:		remove_mibstore_h.patch
 
 BuildRequires:	pkgconfig(xproto)
 BuildRequires:	pkgconfig(xorg-server)
