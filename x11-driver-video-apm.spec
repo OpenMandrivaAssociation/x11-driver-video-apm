@@ -19,7 +19,7 @@ x11-driver-video-apm is the X.org driver for Alliance Promotion.
 
 %prep
 %setup -qn xf86-video-apm-%{version}
-%apply_patches
+%autopatch -p1
 
 %build
 %ifarch i586
